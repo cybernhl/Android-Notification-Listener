@@ -5,6 +5,7 @@ buildscript {
     }
     repositories {
         google()
+        mavenCentral()
         maven {
             url 'https://maven.aliyun.com/repository/jcenter'
             name 'aliyun'
@@ -20,6 +21,7 @@ buildscript {
 allprojects {
     repositories {
         google()
+        mavenCentral()
         maven {
             url 'https://maven.aliyun.com/repository/jcenter'
             name 'aliyun'
